@@ -1,18 +1,14 @@
 {
+  "homepage": "https://hapiiis.github.io/notes-app",
   "name": "notes-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject":"react-scripts eject",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
